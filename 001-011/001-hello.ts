@@ -1,4 +1,4 @@
-// bun 001-hello.ts "your name"
+// bun 001-011/001-hello.ts "your name"
 // arguments
 
 // Extracting information from the arguments passed to the script, starting from the 3rd argument (index 2)

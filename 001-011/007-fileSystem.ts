@@ -1,4 +1,4 @@
-// bun 007-fileSystem.ts
+// bun 001-011/007-fileSystem.ts
 // fs module
 import { promises as fsPromises } from "fs";
 
@@ -12,4 +12,4 @@ async function readJson(file: string): Promise<any> {
   }
 }
 
-readJson(`${process.cwd()}/data/007dummyJson.json`).then((config) => console.log(config.projectId));
+readJson(`${process.cwd()}/outputFiles/007dummyJson.json`).then((config) => console.log(config.projectId));

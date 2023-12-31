@@ -20,7 +20,7 @@ This project aims to show how to do basic operations that may be useful for full
 
 ### Prerequisities
 
-- Bun.js || Node.js (many of the scripts should work in Node)
+- Bun.js && Node.js (readLineSync is not working correctly on Bun)
 
 ### Setup
 

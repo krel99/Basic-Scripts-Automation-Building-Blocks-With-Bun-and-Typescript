@@ -1,4 +1,4 @@
-// bun 010-readline.ts
+// bun 001-011/010-readline.ts
 // readLine module
 import fs from "fs";
 import readline from "readline";

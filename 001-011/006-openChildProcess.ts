@@ -1,5 +1,5 @@
-// bun 006-openChildProcess.ts
-// bun 006-openChildProcess.ts https://nodejs.org/api/querystring.html
+// bun 001-011/006-openChildProcess.ts
+// bun 001-011/006-openChildProcess.ts https://nodejs.org/api/querystring.html
 // os module
 // child_process module
 import { platform } from "os";

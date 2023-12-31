@@ -1,4 +1,4 @@
-// bun 005-os.ts
+// bun 001-011/005-os.ts
 // os module
 import { homedir, platform, cpus } from "os";
 

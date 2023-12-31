@@ -1,0 +1,10 @@
+{
+  "from": "fullEmail@gmail.com",
+  "to": "fullEmail@gmail.com",
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "auth": {
+    "user": "fullEmail@gmail.com",
+    "password": "123456"
+  }
+}
