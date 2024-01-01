@@ -1,6 +1,6 @@
+// bun myAdditions/scrappingWebBasic.ts
 import path from "path";
 
-// bun scrape.ts
 const BASE_URL_TEST = "https://en.wikipedia.org/wiki/Main_Page#/media/File:French_battleship_Bouvet_NH_64442.jpg";
 
 async function scrapeTest(URL: string) {
