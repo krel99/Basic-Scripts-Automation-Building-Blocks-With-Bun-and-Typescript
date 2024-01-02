@@ -12,4 +12,4 @@ async function readJson(file: string): Promise<any> {
   }
 }
 
-readJson(`${process.cwd()}/outputFiles/007dummyJson.json`).then((config) => console.log(config.projectId));
+readJson(`${process.cwd()}/001-011/007dummyJson.json`).then((config) => console.log(config.projectId));

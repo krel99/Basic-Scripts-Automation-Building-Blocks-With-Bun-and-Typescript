@@ -1,4 +1,4 @@
-// node 014/copyFolders.js
+// node 014-copyingFolders/copyFolders.js
 // fs-extra
 import path from "path";
 import readLineSync from "readline-sync";
@@ -7,7 +7,7 @@ import fse from "fs-extra";
 const FOLDERS_TO_COPY = "foldersToCopy";
 const NO_CHOICE = "0";
 
-const templatesDir = path.join(process.cwd(), "014", FOLDERS_TO_COPY);
+const templatesDir = path.join(process.cwd(), "014-copyingFolders", FOLDERS_TO_COPY);
 const templates = fse.readdirSync(templatesDir);
 
 const index = readLineSync.keyInSelect(templates);

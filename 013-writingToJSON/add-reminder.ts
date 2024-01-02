@@ -1,6 +1,6 @@
-// bun 013/add-reminder.ts "Attend Galactic Council Meeting"
-// bun 013/add-reminder.ts
-// bun 013/add-reminder.ts "Take out the trash"
+// bun 013-writingToJSON/add-reminder.ts "Attend Galactic Council Meeting"
+// bun 013-writingToJSON/add-reminder.ts
+// bun 013-writingToJSON/add-reminder.ts "Take out the trash"
 import { JSON_WHITESPACE } from "./constants";
 import fs from "fs";
 import path from "path";
@@ -19,7 +19,7 @@ reminder = reminder.trim();
 
 console.log(reminder);
 
-const remindersFilePath = path.join(process.cwd(), "013/reminders.json");
+const remindersFilePath = path.join(process.cwd(), "013-writingToJSON/reminders.json");
 const reminders = JSON.parse(fs.readFileSync(remindersFilePath, "utf8")).reminders;
 const hasReminderAlready = reminders.includes(reminder);
 
@@ -30,6 +30,6 @@ if (hasReminderAlready) {
 
 reminders.push(reminder);
 
-fs.writeFileSync(`${process.cwd()}/013/reminders.json`, JSON.stringify({ reminders }, null, JSON_WHITESPACE));
+fs.writeFileSync(`${process.cwd()}/013-writingToJSON/reminders.json`, JSON.stringify({ reminders }, null, JSON_WHITESPACE));
 
 console.log(`Reminder added: ${reminder}`);

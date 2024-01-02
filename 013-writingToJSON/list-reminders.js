@@ -1,4 +1,4 @@
-// node 013/list-reminders.js
+// node 013-writingToJSON/list-reminders.js
 //
 import colors from "colors";
 colors.enable();
@@ -8,7 +8,7 @@ import readLineSync from "readline-sync";
 import path from "path";
 
 //importing json file as in the book is possible, but config would need to be configured
-const remindersFilePath = path.join(process.cwd(), "013/reminders.json");
+const remindersFilePath = path.join(process.cwd(), "013-writingToJSON/reminders.json");
 const reminders = JSON.parse(fs.readFileSync(remindersFilePath, "utf8")).reminders;
 
 if (reminders.length === 0) {

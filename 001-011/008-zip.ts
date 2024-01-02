@@ -14,7 +14,7 @@ archive.on("error", (err) => {
   throw err;
 });
 
-const textPath = path.join(process.cwd(), "outputFiles", "007dummyJson.json");
+const textPath = path.join(process.cwd(), "001-011", "007dummyJson.json");
 const input: ReadStream = fs.createReadStream(textPath);
 archive.pipe(output);
 input.pipe(archive);

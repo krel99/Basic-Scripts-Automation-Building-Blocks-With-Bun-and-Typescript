@@ -2,7 +2,6 @@
 
 // Import puppeteer
 import puppeteer from "puppeteer";
-// import * as cheerio from "cheerio";
 
 (async () => {
   // Launch the browser

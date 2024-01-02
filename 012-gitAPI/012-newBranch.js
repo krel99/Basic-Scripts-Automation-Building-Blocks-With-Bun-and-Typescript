@@ -1,4 +1,4 @@
-// node 012/012-newBranch.js
+// node 012-gitAPI/012-newBranch.js
 // shell module
 import shell from "shelljs";
 import path from "path";

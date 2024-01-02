@@ -1,4 +1,4 @@
-// bun 015/send-email.ts "subject" "body"
+// bun 015-sendingEmails/send-email.ts "subject" "body"
 // nodemailer
 
 // if using google, you need to allow less secure apps if running with no two factor auth
@@ -9,7 +9,7 @@ import fs from "fs";
 import nodemailer from "nodemailer";
 import path from "path";
 
-const configFilePath = path.join(process.cwd(), "015", "config.json");
+const configFilePath = path.join(process.cwd(), "015-sendingEmails", "config.json");
 const jsonDataLoaded = JSON.parse(fs.readFileSync(configFilePath, "utf8"));
 
 console.log(jsonDataLoaded);

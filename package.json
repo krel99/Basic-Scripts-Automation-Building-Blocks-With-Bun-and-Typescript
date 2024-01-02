@@ -12,11 +12,15 @@
     "@types/nodemailer": "^6.4.14",
     "cheerio": "^1.0.0-rc.12",
     "colors": "^1.4.0",
+    "csv-parse": "^5.5.3",
     "fs-extra": "^11.2.0",
     "install": "^0.13.0",
+    "minimist": "^1.2.8",
     "nodemailer": "^6.9.8",
+    "open": "^10.0.2",
     "puppeteer": "^21.6.1",
     "readline-sync": "^1.4.10",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "stream-transform": "^3.3.0"
   }
 }

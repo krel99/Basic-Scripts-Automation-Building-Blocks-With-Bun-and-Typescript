@@ -1,0 +1,3 @@
+A file 016 would be sending SMS from Bun.
+It requires an access to a third party service which may be paid and requires an account.
+I will add it to the repository only if I need it in the future in a script I write.

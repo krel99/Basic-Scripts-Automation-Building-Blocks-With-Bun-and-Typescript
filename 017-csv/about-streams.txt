@@ -1,0 +1,6 @@
+readable streams - acts as a source
+writable streams - acts as a destination
+duplex - both readable and writable
+transform - a special kind of Dulex stream, input goes into the transform stream and is returned modified or not
+
+pipe function reads data from a readable stream as it becomes available and writes it to a destination writing stream
